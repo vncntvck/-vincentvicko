@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import { ArrowUpRight, Gamepad2, Film, LayoutDashboard } from 'lucide-react'
+import { ArrowUpRight, Gamepad2, Film, LayoutDashboard, Icon } from 'lucide-react'
 
 const projects = [
   {
@@ -27,10 +27,20 @@ const projects = [
     title: 'Portfolio Website',
     desc: 'This very portfolio — built with React + Vite. Modern dark design with smooth animations and clean code.',
     tags: ['React', 'Vite', 'Tailwind'],
-    link: '#',
+    link: 'https://www.vincentvicko.my.id/',
     Icon: LayoutDashboard,
     color: 'rgba(139,92,246,0.08)',
     iconColor: '#a78bfa',
+  },
+  {
+    num: '04',
+    title: 'Website Koperasi',
+    desc: 'A modern Laravel cooperative platform with clean architecture, responsive design, seamless member tracking, and automated financial reporting.',
+    tags: ['PHP', 'Vite', 'Tailwind'],
+    link: 'https://cudps.org/',
+    Icon: LayoutDashboard,
+    color: 'rgba(113, 69, 215, 0.08)',
+    iconColor: '#937ade',
   },
 ]
 

@@ -146,7 +146,7 @@ export default function Contact() {
                 <label style={{ display:'block',fontSize:'0.8rem',fontWeight:500,color:'var(--text-muted)',marginBottom:'0.5rem' }}>Message</label>
                 <textarea name="message" value={form.message} onChange={handleChange} className="form-input" rows={5} placeholder="Tell me about your project..." required />
               </div>
-
+  
               <button type="submit" className="btn-primary" style={{ justifyContent:'center', opacity: sending ? 0.7 : 1, cursor: sending ? 'not-allowed' : 'pointer' }} disabled={sending}>
                 {sending
                   ? <><svg style={{ width:16,height:16,animation:'spin 1s linear infinite' }} viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="3" strokeDasharray="30 70" strokeLinecap="round"/></svg> Sending...</>

@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react'
 import { Code2, Calendar, FolderOpen, Users, Star, ArrowRight } from 'lucide-react'
 
 const stats = [
-  { icon: Calendar,    num: '2+',   label: 'Years Learning' },
-  { icon: FolderOpen,  num: '10+',  label: 'Projects Built' },
+  { icon: Calendar,    num: '1+',   label: 'Years Learning' },
+  { icon: FolderOpen,  num: '5+',  label: 'Projects Built' },
   { icon: Users,       num: '5+',   label: 'Happy Clients' },
   { icon: Star,        num: '100%', label: 'Dedication' },
 ]
@@ -56,7 +56,7 @@ export default function About() {
                 <Code2 size={18} color="#60a5fa" />
                 <div>
                   <p style={{ fontSize:'0.7rem', color:'var(--text-dim)', fontFamily:"'JetBrains Mono',monospace" }}>Status</p>
-                  <p style={{ fontSize:'0.82rem', fontWeight:600, color:'#60a5fa' }}>Open to Work</p>
+                  <p style={{ fontSize:'0.82rem', fontWeight:600, color:'#60a5fa' }}>FRONTEND</p>
                 </div>
               </div>
             </div>
